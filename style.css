@@ -1,0 +1,334 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family:'Josefin sans', sans-serif;
+  box-sizing: border-box;
+}
+.hero{
+  height: 100vh;
+  width: 100%;
+  background-image: url("desktop-wallpaper-web-design-web-developer.jpg");
+  background-size:cover;
+  background-position: center;
+  background-attachment:fixed;
+}
+.navbar{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  padding: 4px 6% 4px 6%;
+  width: 100%;
+}
+.navbar{
+  position: fixed;
+  background-color:#000000;
+  overflow: hidden;
+  top: 0px;
+  z-index: 100;
+}
+.logo{
+  color: white;
+  font-size: px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+span{
+  color: #f9004d;
+}
+.navbar .navbar-nav .nav-item {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+  color: #f9004d;
+  transition: 0.4s;
+}
+#btn{
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform 0.4s;
+}
+#btn:hover{
+  transform: scale(1.2);
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+h1{
+  color: white;
+  margin: 20px opx 20px;
+  font-size: 75px;
+}
+h3{
+  color: white;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+h4{
+  color: #fcfc;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.ui{
+  color: #f9004d;
+}
+.about{
+  width: 100%;
+  height: 100%;
+  padding: 100px 0px;
+  background-color: #191919;
+}
+.img-fluid{
+  height: auto;
+  width: 430px;
+}
+.about-text{
+  width: 50%;
+} 
+
+.about-text h2{
+  color: white;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about-text h5{
+  color: white;
+  font-size: 22px;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+.about-text p{
+  color: #fcfc;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:#191919;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2em;
+}
+.project {
+  background-color: #f9004d;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2em;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  height: 100%;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+
+.project img{
+  width: 100%;
+  height: 310px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-info {
+  padding: 1em;
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+.project p {
+  color: #fcfc;
+}
+
+/*----Skills Section----*/
+
+.tech{
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  text-align: center;
+  line-height: 40px;
+  margin-left: 50px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+.candidatos{
+  position: relative;
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+.candidatos .parcial{
+  display: inline-block;
+  width: 100%;
+  vertical-align:middle ;
+}
+.candidatos .parcial .info{
+  position:relative ;
+  font-family: 'Poppins', sans-serif;
+}
+.candidatos .parcial .info .nome{
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  top: 0;
+  left: 0;
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.9;
+  color: white;
+}
+.candidatos .parcial .info .nome .percentage-num{
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 450px;
+  color: white;
+}
+.percentage-num{
+  margin-left: 350px;
+  color: white;
+  
+}
+.candidatos .parcial .progressBar{
+  position: relative;
+  width: 100%;
+  height: 7px;
+  margin: 30px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);
+}
+.candidatos .parcial .percentagem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 7px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #f9004d;
+  transition: 2s all;
+  animation: animationProgress 2s; 
+  font-family: 'Poppins', sans-serif;
+}
+@keyframes animationProgress {
+  from {
+    width: 0; 
+  }
+  to {
+    width: 85%; 
+  }
+}
+/*----Contact Section----*/
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sectionC {
+  background-color: #191919;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+h5{
+  color: #f9004d;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col {
+  flex: 1;
+  margin: 10px;
+  text-align: left;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label, input, textarea {
+  width: 100%;
+  margin-bottom: 15px;
+}
+input, textarea{
+  box-shadow: 5px 5px 10px #f9004d
+}
+button {
+background-color: #009fcf;
+color: white;
+padding: 10px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+box-shadow: 5px 5px 10px #f9004d;
+}
+
+button:hover {
+background-color: #006685;
+}
+
+@media (max-width: 768px) {
+  .col {
+      flex: 1 0 100%;
+  }
+}
+.kenburns-top-right {
+	animation: kenburns-top-right 5s ease-out both;
+}
+
+ @keyframes kenburns-top-right {
+  0% {
+    transform: scale(1) translate(0, 0);
+    transform-origin: 84% 16%;
+  }
+  100% {
+    transform: scale(1.25) translate(20px, -15px);
+    transform-origin: right top;
+  }
+}
